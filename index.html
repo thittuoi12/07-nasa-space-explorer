@@ -18,7 +18,7 @@
       <input type="date" id="endDate" />
       <button>Get Space Images</button>
     </div>
-
+<p id="spaceFact"></p>
     <div id="gallery" class="gallery">
       <div class="placeholder">
         <div class="placeholder-icon">🔭</div>
@@ -31,3 +31,13 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <img id="modalImg" />
+    <h2 id="modalTitle"></h2>
+    <p id="modalDate"></p>
+    <p id="modalDesc"></p>
+  </div>
+</div>
